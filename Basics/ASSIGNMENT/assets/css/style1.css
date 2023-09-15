@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(../images/write.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.head{
+    margin-left: 30px;
+}
+
+.head img{
+    float: right;
+    width: 100%;
+    height: 40px;
+}
+
+.head h6{
+    top: 20px;
+    left: 100px;
+    font-size:32px;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+}
+
+.abc{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.nav a{
+    font-size: 22px;
+    color:white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+.nav button{
+    background:transparent;
+    font-size: 22px;
+    color:orange;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+    border-color: orange;
+}
+
+.nav button:hover{
+    color: black;
+}
+
+.text{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
+
+.body-content{
+    max-width: 700px;
+    float: right;
+}
+
+.body-content h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+
+}
+
+.body-content p{
+    color: white;
+    font-size: 40px;
+    margin:20px 0 40px;
+    font-weight: bold;
+    float: right;
+}
+
+.body-content .box{
+    display: flex;
+    justify-content: space-between;
+    width:345px;
+    height: 50px;
+    background: transparent;
+}
+
+.box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    background:orange;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.box h3{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.box h3:hover{
+    color:black;
+}
+
+.box a:hover{
+    color:black;
+}

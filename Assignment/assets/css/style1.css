@@ -1,0 +1,133 @@
+/* P5.HTML */
+
+.container-4{
+    background: #11998e; 
+    padding: 38px;
+}
+.card-section{
+    position: relative;
+    height: 460px;
+    width: 300px;
+    background-color: #fff;
+    margin: 100px auto;
+    border-radius: 12px;
+}
+.header-2 {
+    position: absolute;
+    height: 220px;
+    width: 95%;
+    margin:0 auto;
+    left: 0;
+    right: 0;
+    top: -30px;
+    /* margin: -30px 0 0; */
+    border-radius: 12px;
+    background-color: #1abc9c;
+}
+.header-2 img {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 22px 0 20px 90px;
+}
+.header-2 h3 {
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    font-size: 26px;
+    margin: 140px 0 0 60px;
+}
+.header-2 .p1 {
+    position: absolute;
+    font-family: sans-serif;
+    color: rgb(236, 233, 233);
+    font-size: 13px;
+    margin: 180px 0 0 80px;
+}
+.div {
+    position: absolute;
+    height: 126px;
+    left: 5px;
+    right: 5px;
+    top: 52%;
+    border-radius: 12px;
+}
+.div ul li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    height: 40px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    background-color: transparent;
+}
+.div ul li .p1, h3, i {
+    position: absolute;
+}
+.div ul li h3 {
+    top: -17px;
+    left: 58px;
+    color: #16a085;
+}
+.div ul li .p1 {
+    top: 14px;
+    left: 59px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #16a085;
+}
+.div ul li i {
+    left: 8px;
+    top: 7px;
+    color: #16a085;
+    font-size: 26px;
+}
+.div ul li:nth-child(1) {
+    top: -16px;
+}
+.div ul li:nth-child(2) {
+    top: 26px;
+}
+.div ul li:nth-child(3) {
+    top: 68px;
+}
+.div ul li:nth-child(1) i {
+    left: 12px;
+}
+.div li:hover {
+    background-color: #16a085;
+    cursor: pointer;
+}
+.div li:hover i{color:#fff}
+.div li:hover h3{color:#fff}
+.div li:hover p{color:#fff}
+.footer-2 {
+    position: absolute;
+    height: 80px;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    width:95%;
+    margin: 0 auto;
+    background-color: #1abc9c;
+}
+.footer-2 ul {
+    position: absolute;
+    left: -60px;
+}
+.footer-2 ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+.footer-2 ul li i {
+    font-size: 30px;
+    color: #000;
+}
+.footer-2 ul li:hover i {
+    color: #fff;
+}
+
